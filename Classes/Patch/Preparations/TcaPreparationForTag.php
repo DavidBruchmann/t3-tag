@@ -83,7 +83,7 @@ class TcaPreparationForTag
                 $fieldConfig['config']['foreign_table'] = 'sys_tag';
 
                 // Initialize default column configuration and merge it with already defined
-                $fieldConfig['config']['size'] ??= 1;
+                $fieldConfig['config']['size'] ??= 5;
                 $fieldConfig['config']['foreign_table_where'] ??= ' AND {#sys_tag}.{#sys_language_uid} IN (-1, 0)';
 
                 // In case no relationship is given, fall back to "manyToMany"
