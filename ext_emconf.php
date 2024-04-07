@@ -11,7 +11,7 @@ $EM_CONF['tagging'] = [
     'author_company' => 'WapplerSystems',
     'constraints' => [
         'depends' => [
-            'typo3' => '12.0.0-12.4.99',
+            'typo3' => '11.0.0-11.4.99',
         ],
     ],
 ];
